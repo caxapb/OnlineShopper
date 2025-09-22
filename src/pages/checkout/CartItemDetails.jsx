@@ -13,7 +13,7 @@ export function CartItemDetails({ cartItem, loadCart }) {
 
   const updateQuantity = async () => {
     if (beingUpdated) {
-      const prId = cartItem.product.id;
+      const prId = cartItem.productId;
       await axios.put(`/api/cart-items/${prId}`, {
         quantity
       });
