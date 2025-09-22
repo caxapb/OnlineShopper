@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 import BuyAgainIcon from '../../assets/images/icons/buy-again.png';
 import { Fragment } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 

@@ -2,7 +2,7 @@ import { it, expect, describe, vi, beforeEach } from 'vitest';
 import { HomePage } from '../src/pages/home/HomePage';
 import { render, screen, within } from '@testing-library/react';
 import axios from 'axios';
-import { MemoryRouter } from 'react-router';
+import { MemoryRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
 
 

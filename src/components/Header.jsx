@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from 'react-router';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Header.css'
 import CartIcon from '../assets/images/icons/cart-icon.png';
 import SearchIcon from '../assets/images/icons/search-icon.png';
@@ -10,7 +10,6 @@ export function Header({ cart }) {
   const [searchText, setSearchText] = useState('');
   const updateSearchText = (event) => {
     setSearchText(event.target.value);
-    console.log(event.target.value);
   }
 
   let totalQuantity = 0;

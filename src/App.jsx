@@ -4,7 +4,7 @@ import { OrdersPage } from './pages/orders/OrdersPage'
 import { TrackingPage } from './pages/tracking/TrackingPage'
 import { NotFoundPage } from './pages/not-found/NotFoundPage'
 
-import { Routes, Route } from 'react-router'
+import { Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './App.css'

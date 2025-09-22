@@ -1,7 +1,7 @@
 import { it, expect, describe, vi, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import axios from 'axios';
-import { MemoryRouter, useLocation } from 'react-router';
+import { MemoryRouter, useLocation } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
 import { PaymentSummary } from '../src/pages/checkout/PaymentSummary';
 

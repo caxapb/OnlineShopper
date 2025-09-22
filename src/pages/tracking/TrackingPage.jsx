@@ -1,6 +1,6 @@
 import './TrackingPage.css'
 import { Header } from '../../components/Header';
-import { Link, useParams } from 'react-router';
+import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import dayjs from 'dayjs';
@@ -44,7 +44,6 @@ export function TrackingPage({cart}) {
           </Link>
 
           <div className="delivery-date">
-            {console.log(deliveryPercent)}
             {deliveryPercent === '100' ? "Arriving on " : "Delivered on "}
             {dayjs(orderProduct.estimatedDeliveryTimeMs).format('dddd, MMM D')}
           </div>
