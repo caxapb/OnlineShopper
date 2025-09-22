@@ -60,7 +60,7 @@ git clone https://github.com/SuperSimpleDev/ecommerce-backend-ai.git
 // Или через SSH:
 git clone git@github.com:SuperSimpleDev/ecommerce-backend-ai.git
 
-cd ecommerce-backend-ai 
+cd ecommerce-backend-ai
 npm install
 npm run dev
 // Server is running on port 3000
@@ -80,5 +80,5 @@ npm run dev
 
 Для тестирования:
 ```
-
+npx vitest
 ```
