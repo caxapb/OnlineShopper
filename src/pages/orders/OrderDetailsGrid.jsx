@@ -21,7 +21,7 @@ export function OrderDetailsGrid({order, loadCart}) {
         return (
           <Fragment key={orderProduct.product.id}>
             <div className="product-image-container">
-              <img src={orderProduct.product.image} />
+              <img src={orderProduct.product.image} alt="product image" />
             </div>
 
             <div className="product-details">
@@ -35,7 +35,7 @@ export function OrderDetailsGrid({order, loadCart}) {
                 Quantity: {orderProduct.quantity}
               </div>
               <button className="buy-again-button button-primary">
-                <img className="buy-again-icon" src={BuyAgainIcon} />
+                <img className="buy-again-icon" src={BuyAgainIcon} alt="buy again icon" />
                 <span className="buy-again-message"
                   onClick={addToCart}>
                   Add to Cart
