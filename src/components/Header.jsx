@@ -2,8 +2,10 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import './Header.css'
 import CartIcon from '../assets/images/icons/cart-icon.png';
 import SearchIcon from '../assets/images/icons/search-icon.png';
-import LogoWhite from '../assets/images/logo-white.png';
-import MobileLogoWhite from '../assets/images/mobile-logo-white.png';
+// import LogoWhite from '../assets/images/logo-white.png';
+// import MobileLogoWhite from '../assets/images/mobile-logo-white.png';
+import Logo from '../assets/images/new-logo.png'
+import MobileLogo from '../assets/images/new-mobile-logo.png'
 import { useState } from 'react';
 
 export function Header({ cart }) {
@@ -36,9 +38,9 @@ export function Header({ cart }) {
         <div className="left-section">
           <NavLink to="/" className="header-link">
             <img className="logo"
-              src={LogoWhite} />
+              src={Logo} />
             <img className="mobile-logo" 
-              src={MobileLogoWhite} />
+              src={MobileLogo} />
           </NavLink>
         </div>
 

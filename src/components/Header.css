@@ -34,13 +34,10 @@
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.header .header-link:hover {
-  border: 1px solid white;
-}
-
 .header .logo {
-  height: 26px;
+  height: 45px;
   margin-top: 1px;
+  width: 180px;
 }
 
 .header .mobile-logo {
@@ -54,7 +51,7 @@
 
   .header .mobile-logo {
     display: block;
-    height: 26px;
+    height: 45px;
     margin-top: 1px;
   }
 }
