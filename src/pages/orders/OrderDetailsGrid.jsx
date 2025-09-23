@@ -1,11 +1,12 @@
 import dayjs from "dayjs";
-import BuyAgainIcon from '../../assets/images/icons/buy-again.png';
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
+import BuyAgainIcon from '../../assets/images/icons/buy-again.png';
 
-export function OrderDetailsGrid({order, cart, loadCart}) {
+
+export function OrderDetailsGrid({order, loadCart}) {
   return (
     <div className="order-details-grid">
       {order.products.map((orderProduct) => {

@@ -1,7 +1,8 @@
-import './CheckoutPage.css'
-import { CheckoutHeader } from './CheckoutHeader';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+
+import './CheckoutPage.css'
+import { CheckoutHeader } from './CheckoutHeader';
 import { OrderSummary } from './OrderSummary';
 import { PaymentSummary } from './PaymentSummary';
 

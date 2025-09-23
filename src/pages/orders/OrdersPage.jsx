@@ -1,8 +1,9 @@
+import axios from 'axios';
+import { useState, useEffect } from 'react';
+
 import './OrdersPage.css'
 import { Header } from '../../components/Header';
 import { OrdersGrid } from './OrdersGrid';
-import axios from 'axios';
-import { useState, useEffect } from 'react';
 
 
 export function OrdersPage({ cart, loadCart }) {
@@ -24,7 +25,7 @@ export function OrdersPage({ cart, loadCart }) {
 
       <div className="orders-page">
         <div className="page-title">Your Orders</div>
-        <OrdersGrid orders={orders} cart={cart} loadCart={loadCart} />
+        <OrdersGrid orders={orders} loadCart={loadCart} />
       </div>
     </>
   );

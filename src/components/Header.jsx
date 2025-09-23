@@ -1,10 +1,11 @@
 import { NavLink, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+
 import './Header.css'
 import CartIcon from '../assets/images/icons/cart-icon.png';
 import SearchIcon from '../assets/images/icons/search-icon.png';
 import Logo from '../assets/images/logo.png'
 import MobileLogo from '../assets/images/mobile-logo.png'
-import { useState } from 'react';
 
 export function Header({ cart }) {
   const [searchText, setSearchText] = useState('');
