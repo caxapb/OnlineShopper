@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import './CheckoutHeader.css'
 import CheckoutLockIcon from '../../assets/images/icons/checkout-lock-icon.png';
-import Logo from '../../assets/images/new-logo-white.png';
-import MobileLogo from '../../assets/images/new-mobile-logo-white.png';
+import Logo from '../../assets/images/logo-white.png';
+import MobileLogo from '../../assets/images/mobile-logo-white.png';
 
 export function CheckoutHeader() {
   return (
