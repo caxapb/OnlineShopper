@@ -6,9 +6,7 @@
 
 Demo:
 
-![Demonstration](https://github.com/caxapb/OnlineShopper/blob/main/Website.gif?raw=true)
-
-<img src="Website.gif" alt="Demonstration" width="400"/>
+<img src="Website.gif" alt="Demonstration" width="800"/>
 
 
 
